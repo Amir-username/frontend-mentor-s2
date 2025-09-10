@@ -1,0 +1,32 @@
+.gridItem {
+  display: grid;
+  gap: 1rem;
+  background-color: white;
+  padding: 1rem 1.2rem;
+  border-radius: 2cap;
+}
+
+.extensionHeader {
+  display: flex;
+  gap: 1rem;
+  align-items: start;
+}
+
+.extensionInfo > div {
+  font-size: 1.3rem;
+  font-weight: 650;
+  color: var(--neutral-800);
+}
+
+.extensionInfo > p {
+  margin: 0;
+  padding: 0.6rem 0;
+  color: var(--neutral-700);
+}
+
+.extensionFooter > button {
+    padding: 0.5rem 0.8rem;
+    border: 1px solid var(--neutral-300);
+    outline: none;
+    border-radius: 2cap;
+}

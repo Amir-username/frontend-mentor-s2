@@ -1,16 +1,19 @@
+import styles from "./extension-grid-item.module.css"
+import Avatar from "../../../../assets/images/logo-markup-notes.svg"
+
 export default function ExtensionGridItem() {
   return (
-    <div className="extension-item">
-      <div className="extension-header">
-        <img src="../assets/images/logo-console-plus.svg" alt="avatar" />
-        <div className="extension-info">
-          <h3>DevLens</h3>
+    <div className={styles.gridItem}>
+      <div className={styles.extensionHeader}>
+        <img src={Avatar} alt="avatar" />
+        <div className={styles.extensionInfo}>
+          <div>DevLens</div>
           <p>Quickly inspect page layouts and visualize element boundaries.</p>
         </div>
       </div>
-      <div className="extension-footer">
+      <div className={styles.extensionFooter}>
         <button>Remove</button>
-        <label className="switch">
+        <label>
           <input type="checkbox" />
           <span className="slider round"></span>
         </label>

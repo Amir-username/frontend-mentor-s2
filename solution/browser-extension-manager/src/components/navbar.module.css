@@ -1,0 +1,14 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0.8rem;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 1px 1px 8px var(--neutral-300);
+}
+
+.themeToggle {
+    background-color: var(--neutral-100);
+    padding: 0.8rem 0.8rem;
+    border-radius: 6px;
+}

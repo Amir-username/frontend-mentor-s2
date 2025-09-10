@@ -1,11 +1,13 @@
 import Brand from "../../../../assets/images/logo.svg";
+import Switch from "../../../../assets/images/icon-moon.svg";
+import styles from './navbar.module.css'
 
 export default function Navbar() {
   return (
-    <nav>
+    <nav className={styles.navbar}>
       <img src={Brand} alt="brand" />
-      <div className="theme-toggle">
-        <img src="../assets/images/icon-moon.svg" alt="dark mode" />
+      <div className={styles.themeToggle}>
+        <img src={Switch} alt="dark mode" />
       </div>
     </nav>
   );
