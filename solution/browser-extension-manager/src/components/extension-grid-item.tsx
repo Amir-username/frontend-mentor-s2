@@ -13,9 +13,9 @@ export default function ExtensionGridItem() {
       </div>
       <div className={styles.extensionFooter}>
         <button>Remove</button>
-        <label>
+        <label className={styles.switch}>
           <input type="checkbox" />
-          <span className="slider round"></span>
+          <span className={styles.slider}></span>
         </label>
       </div>
     </div>
